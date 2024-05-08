@@ -1,6 +1,5 @@
 nltk
 tim
-random
 numpy
 pandas
 seaborn
@@ -9,5 +8,5 @@ scipy
 matplotlib
 wordcloud
 collections
-sklearn
+scikit-learn
 genism
