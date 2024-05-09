@@ -1,7 +1,0 @@
-pandas
-seaborn
-streamlit
-matplotlib
-wordcloud
-scikit-learn==0.23.2
-gensim
