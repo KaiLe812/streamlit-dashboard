@@ -6,5 +6,5 @@ streamlit
 matplotlib
 wordcloud
 scipy==1.10.1
-scikit-learn==0.24.2
+scikit-learn
 gensim
