@@ -1,7 +1,9 @@
 pandas
+numpy
 seaborn
 streamlit
 matplotlib
 wordcloud
+scipy==1.10.1
 scikit-learn==0.23.2
 gensim
