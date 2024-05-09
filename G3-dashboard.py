@@ -391,7 +391,7 @@ def visualize_clusters_tSNE_Hierarchical(transformed_data, num_clusters):
     tsne_representation = tsne.fit_transform(transformed_data)
 
     # Perform Hierarchical Clustering with adjusted parameters
-    clustering = AgglomerativeClustering(n_clusters=num_clusters, linkage='ward', affinity='euclidean')
+    clustering = AgglomerativeClustering(n_clusters=num_clusters, linkage='ward')
     cluster_labels = clustering.fit_predict(transformed_data)
 
     # Plot clusters
